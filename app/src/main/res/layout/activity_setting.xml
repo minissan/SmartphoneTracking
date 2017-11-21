@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.marei.smartphonetracking.SettingActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trackernumber"
+        android:text="TRACKER NO :"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="#090000" />
+
+    <Button
+        android:id="@+id/edittrackerno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT TRACKER PHONE NUMBER"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/editpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT SECURITY PIN"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
